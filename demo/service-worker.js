@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.04785d588548d78ca9f6f4d69dca5c9a.js"
+  "/demo/precache-manifest.0cdcf680e57293d369b4d651a24db59d.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "thinkupp"});
+workbox.core.setCacheNameDetails({prefix: "thinkupp.github.io"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
