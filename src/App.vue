@@ -12,6 +12,12 @@ export default Vue.extend({
   name: "App",
   components: {
     Layout
+  },
+  watch: {
+    $route() {
+      const title = this.$route.meta?.title || "thinkupp.github.io";
+      document.title = title;
+    }
   }
 });
 </script>

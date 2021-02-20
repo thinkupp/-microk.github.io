@@ -7,7 +7,10 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    component: Index
+    component: Index,
+    meta: {
+      title: "ThinkUpp."
+    }
   },
   {
     path: '/vuetify/message',
