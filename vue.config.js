@@ -7,8 +7,7 @@ if (process.env.NODE_ENV === "production") {
       "vue-router": "VueRouter",
       vuex: "Vuex",
       vuetify: "Vuetify",
-      "vuetify-message-snackbar": "VuetifyMessageSnackbar",
-      "vuetify/dist/vuetify.min.css": "vuetify/dist/vuetify.min.css"
+      "vuetify-message-snackbar": "VuetifyMessageSnackbar"
     }
   };
 }
