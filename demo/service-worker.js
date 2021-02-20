@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/demo/precache-manifest.0cdcf680e57293d369b4d651a24db59d.js"
+  "/demo/precache-manifest.488cd5b0a3b03e60a4a03d833d7ca5b2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "thinkupp.github.io"});
