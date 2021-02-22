@@ -1,11 +1,11 @@
 <template>
   <vuetify-layout>
     <v-subheader>基本应用</v-subheader>
-    <v-btn @click="$message.timeout(-1).success('success')">success</v-btn>
-    <v-btn @click="$message.info('info')">info</v-btn>
-    <v-btn @click="$message.warning('warning')">warning</v-btn>
-    <v-btn @click="$message.error('error')">error</v-btn>
-    <v-btn @click="$message.show('show')">show</v-btn>
+    <v-btn @click="$message.success('命令执行成功')">success</v-btn>
+    <v-btn @click="$message.info('来自一则电台消息: 文案变化了')">info</v-btn>
+    <v-btn @click="$message.warning('这是一条警告消息')">warning</v-btn>
+    <v-btn @click="$message.error('这是一条错误消息')">error</v-btn>
+    <v-btn @click="$message.show('这是一条默认消息')">show</v-btn>
 
     <v-subheader>自定义方向</v-subheader>
     <v-btn @click="$message.topLeft().info('topLeft')">上左</v-btn>
@@ -14,6 +14,14 @@
     <v-btn @click="$message.bottomLeft().info('bottomLeft')">下左</v-btn>
     <v-btn @click="$message.bottom().info('bottom')">下中</v-btn>
     <v-btn @click="$message.bottomRight().info('bottomRight')">下右</v-btn>
+
+    <v-subheader>消息条ICON</v-subheader>
+    <v-btn @click="$message.messageIcon('mdi-domain').success('自定义ICON')"
+      >自定义ICON</v-btn
+    >
+    <v-btn @click="$message.messageIcon().success('隐藏预设的ICON')"
+      >隐藏预设的ICON</v-btn
+    >
 
     <v-subheader>过渡效果</v-subheader>
     <v-btn @click="$message.transition().success('随机过渡效果')"

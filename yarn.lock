@@ -8945,10 +8945,10 @@ vuetify-loader@^1.7.0:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify-message-snackbar@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/vuetify-message-snackbar/-/vuetify-message-snackbar-0.1.3.tgz#1ed81c1e81a1f80474061eb060189c96d4e9c261"
-  integrity sha512-N776PGs+PO7iK7W0bMHVyad2ZeISvc9jaxxczCok6v8OvR0yD3M62Sfd2MduxWPqS1dKbuIgvcINW9B+gmKevQ==
+vuetify-message-snackbar@0.2.3:
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/vuetify-message-snackbar/-/vuetify-message-snackbar-0.2.3.tgz#4fc23df15ab536fb956dfd9b2fb526ade4d52c3c"
+  integrity sha512-7kr4/uMUbMjL6FwCfktnERUIAfQ580lfobo1cpuhTSJjNXtAZNs7qt5GWMlbyXBdRsrLKMVIARvdVdPxPg2uCA==
 
 vuetify@^2.4.0:
   version "2.4.4"
