@@ -7,6 +7,9 @@
     <v-btn @click="$message.error('这是一条错误消息')">error</v-btn>
     <v-btn @click="$message.show('这是一条默认消息')">show</v-btn>
 
+    <v-subheader>-</v-subheader>
+    <v-btn @click="useInJs">在JS/TS文件中使用</v-btn>
+
     <v-subheader>自定义方向</v-subheader>
     <v-btn @click="$message.topLeft().info('topLeft')">上左</v-btn>
     <v-btn @click="$message.top().info('top')">上中</v-btn>
@@ -90,6 +93,7 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
 import VuetifyLayout from "./components/VuetifyLayout.vue";
+import { useInJs } from "./util";
 
 @Component({
   components: {
@@ -143,6 +147,10 @@ export default class VuetifyMessage extends Vue {
         bar.again();
       }, 1000);
     }, 2000);
+  }
+
+  private useInJs() {
+    useInJs();
   }
 }
 </script>
