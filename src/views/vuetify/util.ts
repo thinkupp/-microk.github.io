@@ -1,5 +1,5 @@
 import { Notify } from "vuetify-message-snackbar";
 
 export const useInJs = () => {
-  Notify.success("import { Notify } from 'vuetify-message-snackbar'");
+  Notify.success("在JS/TS文件中使用");
 };
